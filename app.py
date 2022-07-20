@@ -15,8 +15,8 @@ st.write("""
 query = st.text_input("Give me a song title", "")
 
 ## load model
-model = keras.models.load_model("./model/model110.h5")
-with open('./model/tokenizer110.pickle','rb') as pfile:
+model = keras.models.load_model("./model/model.h5")
+with open('./model/tokenizer.pickle','rb') as pfile:
     tokenizer = pickle.load(pfile)
 
 def rearrange_text(rap_lyrics):
