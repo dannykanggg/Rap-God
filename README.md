@@ -11,4 +11,4 @@ The model was wrapped with Docker and deployed to Heroku.
 You can try it yourself through the link below!
 https://rap-god.herokuapp.com/
 
-
+As expected, the AI Rapper uses a lot of foul languages, so I decided to censor them out.
